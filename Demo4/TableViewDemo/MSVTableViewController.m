@@ -47,7 +47,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"List";
+    self.title = @"RubiiNote 4000";
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                target:self
