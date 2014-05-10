@@ -2,8 +2,9 @@
 //  MSVTableViewController.h
 //  TableViewDemo
 //
-//  Created by Michael Vitrano on 4/8/14.
-//  Copyright (c) 2014 Vitrano. All rights reserved.
+//  Created by Rubii Pham.
+//  Copyright (c) 2014 Pham. All rights reserved.
+
 //
 
 #import <UIKit/UIKit.h>

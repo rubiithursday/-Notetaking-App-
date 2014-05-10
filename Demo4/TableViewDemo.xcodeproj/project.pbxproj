@@ -24,6 +24,10 @@
 		069437F118F4BB9000BDBDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069437EF18F4BB9000BDBDEB /* InfoPlist.strings */; };
 		069437F318F4BB9000BDBDEB /* TableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069437F218F4BB9000BDBDEB /* TableViewDemoTests.m */; };
 		069437FE18F4BC9700BDBDEB /* MSVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069437FD18F4BC9700BDBDEB /* MSVTableViewController.m */; };
+		F04742FD191D4D3800E796E1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04742FC191D4D3800E796E1 /* Accelerate.framework */; };
+		F04742FF191D4D4000E796E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04742FE191D4D4000E796E1 /* CoreData.framework */; };
+		F0474301191D4D4900E796E1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0474300191D4D4900E796E1 /* StoreKit.framework */; };
+		F0474304191DA51B00E796E1 /* NHPNote.m in Sources */ = {isa = PBXBuildFile; fileRef = F0474303191DA51B00E796E1 /* NHPNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,11 @@
 		069437F218F4BB9000BDBDEB /* TableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoTests.m; sourceTree = "<group>"; };
 		069437FC18F4BC9700BDBDEB /* MSVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVTableViewController.h; sourceTree = "<group>"; };
 		069437FD18F4BC9700BDBDEB /* MSVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVTableViewController.m; sourceTree = "<group>"; };
+		F04742FC191D4D3800E796E1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F04742FE191D4D4000E796E1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0474300191D4D4900E796E1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F0474302191DA51B00E796E1 /* NHPNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPNote.h; sourceTree = "<group>"; };
+		F0474303191DA51B00E796E1 /* NHPNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPNote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0474301191D4D4900E796E1 /* StoreKit.framework in Frameworks */,
+				F04742FF191D4D4000E796E1 /* CoreData.framework in Frameworks */,
+				F04742FD191D4D3800E796E1 /* Accelerate.framework in Frameworks */,
 				069437D018F4BB8F00BDBDEB /* CoreGraphics.framework in Frameworks */,
 				069437D218F4BB8F00BDBDEB /* UIKit.framework in Frameworks */,
 				069437CE18F4BB8F00BDBDEB /* Foundation.framework in Frameworks */,
@@ -109,6 +121,9 @@
 		069437CC18F4BB8F00BDBDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0474300191D4D4900E796E1 /* StoreKit.framework */,
+				F04742FE191D4D4000E796E1 /* CoreData.framework */,
+				F04742FC191D4D3800E796E1 /* Accelerate.framework */,
 				069437CD18F4BB8F00BDBDEB /* Foundation.framework */,
 				069437CF18F4BB8F00BDBDEB /* CoreGraphics.framework */,
 				069437D118F4BB8F00BDBDEB /* UIKit.framework */,
@@ -128,6 +143,8 @@
 				069437D418F4BB8F00BDBDEB /* Supporting Files */,
 				063FA12318FDF3700042027C /* MSVInputViewController.h */,
 				063FA12418FDF3700042027C /* MSVInputViewController.m */,
+				F0474302191DA51B00E796E1 /* NHPNote.h */,
+				F0474303191DA51B00E796E1 /* NHPNote.m */,
 				063FA12518FDF3700042027C /* MSVInputViewController.xib */,
 				063FA12818FDFC4F0042027C /* MSVStringDetailViewController.h */,
 				063FA12918FDFC4F0042027C /* MSVStringDetailViewController.m */,
@@ -265,6 +282,7 @@
 			files = (
 				063FA12B18FDFC4F0042027C /* MSVStringDetailViewController.m in Sources */,
 				063FA12618FDF3700042027C /* MSVInputViewController.m in Sources */,
+				F0474304191DA51B00E796E1 /* NHPNote.m in Sources */,
 				069437DA18F4BB8F00BDBDEB /* main.m in Sources */,
 				069437FE18F4BC9700BDBDEB /* MSVTableViewController.m in Sources */,
 				069437DE18F4BB8F00BDBDEB /* MSVAppDelegate.m in Sources */,
